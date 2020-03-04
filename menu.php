@@ -28,7 +28,7 @@
                             <a class="dropdown-item" href="index.php">หน้าหลัก</a>
                             <a class="dropdown-item" href="history.php">ประวัติโรงเรียน</a>
                             <a class="dropdown-item" href="identity.php">เอกลักณ์ อัตลักษณ์</a>
-                            <a class="dropdown-item" href="#">นโยบายการบริหาร</a>
+                            <a class="dropdown-item" href="management_policy.php">นโยบายการบริหาร</a>
                             <a class="dropdown-item" href="#">คณะกรรมการสถานศึกษา</a>
                             <a class="dropdown-item" href="#">บุคลากรกลุ่มบริหาร</a>
                             <a class="dropdown-item" href="#">บุคลากรกลุ่มครูผู้สอน</a>
