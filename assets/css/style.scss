@@ -292,3 +292,16 @@ a.text-menu-hover{
     background-color: #4267b2!important;
     color: white;
 }
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0;
+    font-family: "fa-regular";
+    content: "\f107";
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+
+}
