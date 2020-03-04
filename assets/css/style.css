@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=K2D&display=swap");
+@font-face {
+  font-family: fa-regular;
+  src: url(../webfonts/fa-regular-400.woff2);
+}
+
+@font-face {
+  font-family: fa-solid;
+  src: url(../webfonts/fa-solid-900.woff2);
+}
+
 body {
   font-family: 'K2D', sans-serif;
 }
@@ -26,6 +36,10 @@ body {
 .more a {
   text-decoration: none;
   color: #4267b2;
+}
+
+.more a:hover {
+  text-decoration: underline;
 }
 
 .dropcus .dropdown-item:hover {
@@ -81,8 +95,64 @@ body {
 
 .tabcenter {
   background-color: #4267b2 !important;
-  width: 240px;
   margin: 0 auto;
+}
+
+.title-left-menu {
+  background-color: #4267b2 !important;
+  margin: 0 auto;
+}
+
+.sub-left-menu {
+  background-color: #f1f1f1;
+}
+
+.sub-left-menu a {
+  color: #333333;
+  display: block;
+  padding: 0 .75rem;
+  border-radius: 10px;
+}
+
+.sub-left-menu a::before {
+  font-family: "fa-regular";
+  content: "\f105";
+  display: inline-block;
+  padding-right: 10px;
+  font-weight: 400;
+}
+
+.sub-left-menu a:hover {
+  color: #ffffff;
+  background-color: #4267b2 !important;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.school {
+  background-color: #f1f1f1;
+}
+
+.school a {
+  color: #333333;
+  display: block;
+  border-radius: 10px;
+}
+
+.school a::before {
+  font-family: "fa-solid";
+  content: "\f105";
+  display: inline-block;
+  color: #4267b2;
+  padding-right: 10px;
+  font-weight: 400;
+}
+
+.school a:hover {
+  color: #4267b2 !important;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  background-color: none;
 }
 
 .nounderln {
@@ -94,4 +164,154 @@ body {
   position: relative;
   display: block;
   margin-bottom: 2px;
+}
+
+.announce {
+  background-color: #f1f1f1;
+}
+
+.listannounce a {
+  color: #333333;
+  display: block;
+  border-radius: 10px;
+}
+
+.listannounce a::before {
+  font-family: "fa-solid";
+  content: "\f0a1";
+  display: inline-block;
+  color: #4267b2;
+  padding-right: 10px;
+  font-weight: 400;
+}
+
+.listannounce a:hover {
+  color: #4267b2 !important;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.listannounce a::after {
+  content: " ";
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #c3c3c3;
+  top: 10px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.listannounce .date-small {
+  font-size: .25rem;
+  color: #bfbfbf;
+  margin-left: 10px;
+}
+
+.listdownload a {
+  color: #333333;
+  display: block;
+  border-radius: 10px;
+}
+
+.listdownload a::before {
+  font-family: "fa-solid";
+  content: "\f019";
+  display: inline-block;
+  color: #4267b2;
+  padding-right: 10px;
+  font-weight: 400;
+}
+
+.listdownload a:hover {
+  color: #4267b2 !important;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.listdownload a::after {
+  content: " ";
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #c3c3c3;
+  top: 10px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.listdownload .date-small {
+  font-size: .25rem;
+  color: #bfbfbf;
+  margin-left: 10px;
+}
+
+.bot-menu {
+  background-color: #f1f1f1;
+}
+
+.bot-menu a {
+  color: #333333;
+  display: block;
+  padding: 0 .75rem;
+  border-radius: 10px;
+}
+
+.bot-menu a::before {
+  font-family: "fa-regular";
+  content: "\f105";
+  display: inline-block;
+  padding-right: 10px;
+  font-weight: 400;
+}
+
+.yearreport a {
+  color: #333333;
+  display: block;
+  border-radius: 10px;
+}
+
+.yearreport a::before {
+  font-family: "fa-solid";
+  content: "\f019";
+  display: inline-block;
+  color: #4267b2;
+  padding-right: 10px;
+  font-weight: 400;
+}
+
+.yearreport a:hover {
+  color: #4267b2 !important;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  background-color: none;
+}
+
+.headfooter {
+  background-color: #4267b2;
+}
+
+.headfooter p {
+  margin-bottom: 0;
+}
+
+.copyright {
+  background-color: #24417a;
+}
+
+a.text-menu-hover {
+  text-decoration: none !important;
+}
+
+a.text-menu-hover:hover {
+  color: #4267b2 !important;
+}
+
+a.text-menu-hover::focus {
+  color: #4267b2 !important;
+}
+
+.title-name {
+  background-color: #4267b2 !important;
+  color: white;
 }
