@@ -30,8 +30,8 @@
                             <a class="dropdown-item" href="identity.php">เอกลักณ์ อัตลักษณ์</a>
                             <a class="dropdown-item" href="management_policy.php">นโยบายการบริหาร</a>
                             <a class="dropdown-item" href="#">คณะกรรมการสถานศึกษา</a>
-                            <a class="dropdown-item" href="#">บุคลากรกลุ่มบริหาร</a>
-                            <a class="dropdown-item" href="#">บุคลากรกลุ่มครูผู้สอน</a>
+                            <a class="dropdown-item" href="org_chart_manage.php">บุคลากรกลุ่มบริหาร</a>
+                            <a class="dropdown-item" href="org_chart_menu.php">บุคลากรกลุ่มครูผู้สอน</a>
                             <a class="dropdown-item" href="#">บุคลากรกลุ่มปฏิบัติการ</a>
                             <a class="dropdown-item" href="#">แผนที่โรงเรียน</a>
 
