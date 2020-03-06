@@ -1,0 +1,130 @@
+.item-list>.box2 {
+    display: inline-block;
+    width: 227px;
+    margin: 4px;
+    box-sizing: border-box;
+    border: 1px solid #e9ebee;
+    border-radius: 2px;
+    background: #fff;
+    padding: 5px
+}
+
+.item-list>.box2>div#drop {
+    cursor: move
+}
+
+.item-list>.box2>.img,.item-list>.box2>div>.img {
+    width: 100%;
+    height: 200px;
+    background: #ccc;
+    background-position: center top !important;
+    background-size: cover !important;
+    position: relative
+}
+
+.item-list>.box2>.active:after,.item-list>.box2>div>.active:after {
+    content: 'done';
+    font-family: "Material Icons";
+    left: 0;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    max-width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: -40px;
+    font-size: 50px;
+    background: #4CAF50;
+    border-radius: 100%;
+    color: #fff;
+    line-height: 75px;
+    border: 3px solid #FFF;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2)
+}
+
+.item-list>.box2>.img>span,.item-list>.box2>div>.img>span {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.51);
+    left: 0;
+    right: 0;
+    padding: 5px;
+    color: #fff;
+    font-family: Prompt;
+    font-weight: 300
+}
+
+.item-list>.box2>div>.img>.action {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    text-align: right
+}
+
+.item-list>.box2>.action,.item-list>.box2>div>.action {
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px 0;
+    text-align: right
+}
+
+.item-list>.box2>div>.action>.name,.item-list>.box2>div>.action>.position {
+    font-family: Prompt;
+    font-weight: 300;
+    text-align: center;
+    font-size: 13px
+}
+
+.view {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    vertical-align: top;
+    border-radius: 100%;
+    position: relative
+}
+
+.view>input[type="checkbox"] {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+    z-index: 99;
+    cursor: pointer
+}
+
+.view>span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 100%
+}
+
+.view>span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+    line-height: 27px;
+    color: #fff;
+    border-radius: 100%
+}
+
+.view>input[type="checkbox"]+span:after {
+    content: 'visibility_off';
+    background-color: #ddd
+}
+
+.view>input[type="checkbox"]:checked+span:after {
+    content: 'visibility';
+    background: #4CAF50
+}
