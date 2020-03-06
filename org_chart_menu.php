@@ -32,51 +32,64 @@
 	<h5 class="mb-4 text-center">กลุ่มสาระ</h5>
     <ul class="row nav nav-pills mb-3" id="pills-tab" role="tablist">
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">สาขาวิชาฟิสิกส์</a>
+    <a class="nav-link btn btn-outline-secondary active" id="pills-1-tab" data-toggle="pill" href="#pills-1" role="tab" aria-controls="pills-1" aria-selected="true">สาขาวิชาฟิสิกส์</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">สาขาวิชาเคมี</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-2-tab" data-toggle="pill" href="#pills-2" role="tab" aria-controls="pills-2" aria-selected="false">สาขาวิชาเคมี</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">สาขาวิชาชีววิทยา</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-3-tab" data-toggle="pill" href="#pills-3" role="tab" aria-controls="pills-3" aria-selected="false">สาขาวิชาชีววิทยา</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">สาขาวิชาดาราศาสตร์</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-4-tab" data-toggle="pill" href="#pills-4" role="tab" aria-controls="pills-4" aria-selected="false">สาขาวิชาดาราศาสตร์</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">สาขาวิชาวิทยาศาสตร์ทั่วไป</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-5-tab" data-toggle="pill" href="#pills-5" role="tab" aria-controls="pills-5" aria-selected="true">สาขาวิชาวิทยาศาสตร์ทั่วไป</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">สาขาวิชาคณิตศาสตร์</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-6-tab" data-toggle="pill" href="#pills-6" role="tab" aria-controls="pills-6" aria-selected="false">สาขาวิชาคณิตศาสตร์</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">สาขาวิชาศิลปะ</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-7-tab" data-toggle="pill" href="#pills-7" role="tab" aria-controls="pills-7" aria-selected="false">สาขาวิชาศิลปะ</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">สาขาวิชาสุขศึกษาและพลศึกษา</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-8-tab" data-toggle="pill" href="#pills-8" role="tab" aria-controls="pills-8" aria-selected="false">สาขาวิชาสุขศึกษาและพลศึกษา</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">สาขาวิชาการงานอาชีพ</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-9-tab" data-toggle="pill" href="#pills-9" role="tab" aria-controls="pills-9" aria-selected="false">สาขาวิชาการงานอาชีพ</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">สาขาวิชาคอมพิวเตอร์</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-10-tab" data-toggle="pill" href="#pills-10" role="tab" aria-controls="pills-10" aria-selected="false">สาขาวิชาคอมพิวเตอร์</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">สาขาวิชาภาษาต่างประเทศ</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-11-tab" data-toggle="pill" href="#pills-11" role="tab" aria-controls="pills-11" aria-selected="false">สาขาวิชาภาษาต่างประเทศ</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">สาขาวิชากิจกรรมพัฒนาผู้เรียน</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-12-tab" data-toggle="pill" href="#pills-12" role="tab" aria-controls="pills-12" aria-selected="false">สาขาวิชากิจกรรมพัฒนาผู้เรียน</a>
   </li>
   <li class="col-3 nav-item mb-3">
-    <a class="nav-link btn btn-outline-secondary" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">สาขาวิชาสังคมศึกษา ศาสนา และวัฒนธรรม</a>
+    <a class="nav-link btn btn-outline-secondary" id="pills-13-tab" data-toggle="pill" href="#pills-13" role="tab" aria-controls="pills-13" aria-selected="false">ภาษาไทย</a>
+  </li>
+  <li class="col-3 nav-item mb-3">
+    <a class="nav-link btn btn-outline-secondary" id="pills-14-tab" data-toggle="pill" href="#pills-14" role="tab" aria-controls="pills-14" aria-selected="false">สาขาวิชาสังคมศึกษา ศาสนา และวัฒนธรรม</a>
   </li>
 </ul>
 
 <div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><?php require"org_dep/ict.php"?></div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><?php require"org_dep/ict.php"?></div>
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><?php require"org_dep/ict.php"?></div>
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><?php require"org_dep/ict.php"?></div>
+  <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab"><?php require"org_dep/physics.php"?></div>
+  <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab"><?php require"org_dep/chemical.php"?></div>
+  <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab"><?php require"org_dep/biology.php"?></div>
+  <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab"><?php require"org_dep/astronomy.php"?></div>
+  <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="pills-5-tab"><?php require"org_dep/science.php"?></div>
+  <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="pills-6-tab"><?php require"org_dep/math.php"?></div>
+  <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="pills-7-tab"><?php require"org_dep/art.php"?></div>
+  <div class="tab-pane fade" id="pills-8" role="tabpanel" aria-labelledby="pills-8-tab"><?php require"org_dep/health.php"?></div>
+  <div class="tab-pane fade" id="pills-9" role="tabpanel" aria-labelledby="pills-9-tab"><?php require"org_dep/ct.php"?></div>
+  <div class="tab-pane fade" id="pills-10" role="tabpanel" aria-labelledby="pills-10-tab"><?php require"org_dep/ict.php"?></div>
+  <div class="tab-pane fade" id="pills-11" role="tabpanel" aria-labelledby="pills-11-tab"><?php require"org_dep/language.php"?></div>
+  <div class="tab-pane fade" id="pills-12" role="tabpanel" aria-labelledby="pills-12-tab"><?php require"org_dep/activity.php"?></div>
+  <div class="tab-pane fade" id="pills-13" role="tabpanel" aria-labelledby="pills-13-tab"><?php require"org_dep/thai.php"?></div>
+  <div class="tab-pane fade" id="pills-14" role="tabpanel" aria-labelledby="pills-14-tab"><?php require"org_dep/social.php"?></div>
 </div>
     </div>
 

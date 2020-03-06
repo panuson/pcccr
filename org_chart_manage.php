@@ -42,7 +42,7 @@
               <li>
                 <div class="user">
                   <img src="assets/img/chart/02.jpg" class="img-responsive" />
-                  <div class="name">ดร.ุพจน์ ทาวงศ์</div>
+                  <div class="name">ดร.สุพจน์ ทาวงศ์</div>
                   <div class="role">รองผู้อำนวยการ</div>
                   <div class="manager">กลุ่มบริหารกิจการนักเรียน</div>
 				</div>
