@@ -327,3 +327,16 @@ a.text-menu-hover::focus {
   border-bottom: none;
   border-left: none;
 }
+
+.btn-outline-cusblue:not(:disabled):not(.disabled).active, .show > .btn-outline-cusblue.dropdown-toggle {
+  color: #fff;
+  background-color: #4267b2!important;
+  border-color: #7a9fe9!important;
+}
+.btn-outline-cusblue {
+  color: #4267b2!important;
+  border-color: #4267b2!important;
+}
+.btn-outline-cusblue:focus, .btn-outline-cusblue.focus {
+  box-shadow: 0 0 0 0.2rem rgba(66, 103, 178, 0.5)!important;
+}

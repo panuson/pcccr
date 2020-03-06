@@ -29,7 +29,7 @@
 
 <section>
     <div class="container-xl py-5">
-	<h5 class="mb-4 text-center">กลุ่มสาระ</h5>
+	<h5 class="mb-5 text-center">กลุ่มสาระ</h5>
     <ul class="row nav nav-pills mb-3" id="pills-tab" role="tablist">
   <li class="col-3 nav-item mb-3">
     <a class="nav-link btn btn-outline-secondary active" id="pills-1-tab" data-toggle="pill" href="#pills-1" role="tab" aria-controls="pills-1" aria-selected="true">สาขาวิชาฟิสิกส์</a>

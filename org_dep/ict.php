@@ -27,7 +27,7 @@
             </li>
             <li>
             <div class="user">
-                <img src="org_dep/ict/04.jpg" class="img-responsive" />
+                <img src="https://download.seaicons.com/icons/icons8/windows-8/512/Users-Guest-icon.png" class="img-responsive" />
                 <div class="name">นายปรัชรัฏต์ ใจมา</div>
                 <div class="role">ครูพิเศษ</div>
                 <div class="manager">เทคโนโลยีคอมพิวเตอร์อุตสาหกรรม</div>

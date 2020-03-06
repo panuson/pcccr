@@ -29,11 +29,11 @@
                             <a class="dropdown-item" href="history.php">ประวัติโรงเรียน</a>
                             <a class="dropdown-item" href="identity.php">เอกลักณ์ อัตลักษณ์</a>
                             <a class="dropdown-item" href="management_policy.php">นโยบายการบริหาร</a>
-                            <a class="dropdown-item" href="#">คณะกรรมการสถานศึกษา</a>
+                            <a class="dropdown-item disabled" href="#">คณะกรรมการสถานศึกษา</a>
                             <a class="dropdown-item" href="org_chart_manage.php">บุคลากรกลุ่มบริหาร</a>
                             <a class="dropdown-item" href="org_chart_menu.php">บุคลากรกลุ่มครูผู้สอน</a>
-                            <a class="dropdown-item" href="#">บุคลากรกลุ่มปฏิบัติการ</a>
-                            <a class="dropdown-item" href="#">แผนที่โรงเรียน</a>
+                            <a class="dropdown-item disabled" href="#">บุคลากรกลุ่มปฏิบัติการ</a>
+                            <a class="dropdown-item" href="maps.php">แผนที่โรงเรียน</a>
 
                     </li>
                     <li class="nav-item dropdown">
@@ -44,7 +44,7 @@
                             <a class="dropdown-item" href="http://www.mreschool.net/mainEschool/" target="_blank">E-School</a>
                             <a class="dropdown-item" href="http://www.pcccr.ksom.net/money/index.php" target="_blank">E-Money</a>
                             <a class="dropdown-item" href="http://www.pcccr.ac.th/library/" target="_blank">Library</a>
-                            <a class="dropdown-item" href="#" target="_blank">CSG</a>
+                            <a class="dropdown-item disabled" href="#" target="_blank">CSG</a>
                             <a class="dropdown-item" href="https://sgs.bopp-obec.info/menu/tblNews/ShowTblNewsTable.aspx" target="_blank">ระบบกรอกคะแนน SGS</a>
                             <a class="dropdown-item" href="http://www.office.com" target="_blank">Microsoft Office 365</a>
                             
@@ -56,15 +56,15 @@
                         <div class="dropdown-menu dropcus" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="http://www.pcccr.ac.th/plan" target="_blank">แผนงาน</a>
                             <a class="dropdown-item" href="http://61.7.241.230/curriculum/" target="_blank">หลักสูตรโรงเรียนวิทยาศาสตร์</a>
-                            <a class="dropdown-item" href="#" target="_blank">งานสารสนเทศ</a>
+                            <a class="dropdown-item disabled" href="#" target="_blank">งานสารสนเทศ</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle navlinkcus" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         ห้องเกียรติยศ
                         </a>
                         <div class="dropdown-menu dropcus" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">ผลงานครู</a>
-                            <a class="dropdown-item" href="#">ผลงานนักเรียน</a>
+                            <a class="dropdown-item disabled" href="#">ผลงานครู</a>
+                            <a class="dropdown-item disabled" href="#">ผลงานนักเรียน</a>
 
                     </li>
                     <li class="nav-item dropdown">
@@ -72,14 +72,14 @@
                         กิจกรรม
                         </a>
                         <div class="dropdown-menu dropcus" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">ภาพกิจกรรม</a>
-                            <a class="dropdown-item" href="#">ตารางกลับบ้าน</a>
-                            <a class="dropdown-item" href="#">ตารางเรียน</a>
-                            <a class="dropdown-item" href="#">การจัดบ้านพัก</a>
-                            <a class="dropdown-item" href="#">การจัดโต๊ะอาหาร</a>
-                            <a class="dropdown-item" href="#">วัยใสใส่ใจสุขภาพ</a>
-                            <a class="dropdown-item" href="#">รายการอาหาร</a>
-                            <a class="dropdown-item" href="#">รายชื่อนักเรียน</a>
+                            <a class="dropdown-item disabled" href="#">ภาพกิจกรรม</a>
+                            <a class="dropdown-item disabled" href="#">ตารางกลับบ้าน</a>
+                            <a class="dropdown-item disabled" href="#">ตารางเรียน</a>
+                            <a class="dropdown-item disabled" href="#">การจัดบ้านพัก</a>
+                            <a class="dropdown-item disabled" href="#">การจัดโต๊ะอาหาร</a>
+                            <a class="dropdown-item disabled" href="#">วัยใสใส่ใจสุขภาพ</a>
+                            <a class="dropdown-item disabled" href="#">รายการอาหาร</a>
+                            <a class="dropdown-item disabled" href="#">รายชื่อนักเรียน</a>
                     </li>
                 </ul>
                 </div>

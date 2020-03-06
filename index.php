@@ -47,31 +47,31 @@
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg my-2 my-sm-3 my-md-4 my-lg-0  ">
-                <a class="nav-link text-white link py-3" href="" target="_blank">
+                <a class="nav-link text-white link py-3 disabled" href="" target="_blank">
                     <i class="fas fa-info-circle h2"></i>
                     <div><small>ระบบ PCSHS</small></div>
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg my-2 my-sm-3 my-md-4 my-lg-0  ">
-                <a class="nav-link text-white link py-3" href="http://" target="_blank">
+                <a class="nav-link text-white link py-3 disabled" href="http://" target="_blank">
                     <i class="fas fa-calendar-alt h2"></i>
                     <div><small>ตารางกลับบ้าน</small></div>
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg my-2 my-sm-3 my-md-4 my-lg-0  ">
-                <a class="nav-link text-white link py-3" href="http://" target="_blank">
+                <a class="nav-link text-white link py-3 disabled" href="http://" target="_blank">
                     <i class="fas fa-book h2"></i>
                     <div><small>ตารางเรียน</small></div>
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg my-2 my-sm-3 my-md-4 my-lg-0  ">
-                <a class="nav-link text-white link py-3" href="http://" target="_blank">
+                <a class="nav-link text-white link py-3 disabled" href="http://" target="_blank">
                     <i class="fas fa-utensils h2"></i>
                     <div><small>รายการอาหาร</small></div>
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg my-2 my-sm-3 my-md-4 my-lg-0  ">
-                <a class="nav-link text-white link py-3" href="http://" target="_blank">
+                <a class="nav-link text-white link py-3 disabled" href="http://" target="_blank">
                     <i class="fas fa-user-friends h2"></i>
                     <div><small>รายชื่อนักเรียน</small></div>
                 </a>
@@ -332,13 +332,13 @@
                         </div>
                         <div class="bot-menu p-2">
                         <div class="yearreport py-1 px-2">
-                            <div><a href=""><small>เดือนเมษายน</small></a></div>
+                            <div><a href=""><small>ปีการศึกษา 2562</small></a></div>
                         </div>
                         <div class="yearreport py-1 px-2">
-                            <div><a href=""><small>เดือนเมษายน</small></a></div>
+                            <div><a href=""><small>ปีการศึกษา 2561</small></a></div>
                         </div>
                         <div class="yearreport py-1 px-2">
-                            <div><a href=""><small>เดือนเมษายน</small></a></div>
+                            <div><a href=""><small>ปีการศึกษา 2560</small></a></div>
                         </div>
                         </div>
                     </div>
@@ -353,43 +353,43 @@
                     <div class="row row-cols-4 mx-0 p-2 px-sm-0 school">
                         <div class="col-6 col-md-4 col-sm-4 col-lg-3 ">
                             <div class=" py-1 px-2">
-                                <div><a href=""><small>จภ.พิษณุโลก</small></a></div>
+                                <div><a href="http://www.pccpl.ac.th/pccpl2012/index.php" target="_blank"><small>จภ.พิษณุโลก</small></a></div>
                             </div>
                             <div class=" py-1 px-2">
-                                <div><a href=""><small>จภ.ลพบุรี</small></a></div>
+                                <div><a href="http://www.pccl.ac.th/" target="_blank"><small>จภ.ลพบุรี</small></a></div>
                             </div>
                             <div class=" py-1 px-2">
-                                <div><a href=""><small>จภ.ปทุมธานี</small></a></div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 col-sm-4 col-lg-3 ">
-                            <div class=" py-1 px-2">
-                                <div><a href=""><small>จภ.ชลบุรี</small></a></div>
-                            </div>
-                            <div class=" py-1 px-2">
-                                <div><a href=""><small>จภ.เพชรบุรี</small></a></div>
-                            </div>
-                            <div class=" py-1 px-2">
-                                <div><a href=""><small>จภ.เลย</small></a></div>
+                                <div><a href="http://www.pccp.ac.th/" target="_blank"><small>จภ.ปทุมธานี</small></a></div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-sm-4 col-lg-3 ">
                             <div class=" py-1 px-2">
-                                <div><a href=""><small>จภ.บุรีรัมย์</small></a></div>
+                                <div><a href="http://www.pccchon.ac.th/" target="_blank"><small>จภ.ชลบุรี</small></a></div>
                             </div>
                             <div class=" py-1 px-2">
-                                <div><a href=""><small>จภ.มุกดาหาร</small></a></div>
+                                <div><a href="https://www.pccphet.ac.th/" target="_blank"><small>จภ.เพชรบุรี</small></a></div>
                             </div>
                             <div class=" py-1 px-2">
-                                <div><a href=""><small>จภ.นครศรีธรรมราช</small></a></div>
+                                <div><a href="http://www.pccloei.ac.th/" target="_blank"><small>จภ.เลย</small></a></div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-sm-4 col-lg-3 ">
                             <div class=" py-1 px-2">
-                                <div><a href=""><small>จภ.ตรัง</small></a></div>
+                                <div><a href="http://pccbr.ac.th/" target="_blank"><small>จภ.บุรีรัมย์</small></a></div>
                             </div>
                             <div class=" py-1 px-2">
-                                <div><a href=""><small>จภ.สตูล</small></a></div>
+                                <div><a href="http://www.pccm.ac.th/2020/" target="_blank"><small>จภ.มุกดาหาร</small></a></div>
+                            </div>
+                            <div class=" py-1 px-2">
+                                <div><a href="http://www.pccnst.ac.th/pcshsnst/" target="_blank"><small>จภ.นครศรีธรรมราช</small></a></div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-sm-4 col-lg-3 ">
+                            <div class=" py-1 px-2">
+                                <div><a href="" target="_blank"><small>จภ.ตรัง</small></a></div>
+                            </div>
+                            <div class=" py-1 px-2">
+                                <div><a href="http://www.pccst.ac.th/" target="_blank"><small>จภ.สตูล</small></a></div>
                             </div>
                         </div>
                     </div> 
