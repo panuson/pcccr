@@ -91,7 +91,7 @@
                         <span>สร้างหมวดหมู่</span>
                     </a>
                 </li>
-                <?php foreach ($dl_menu->orderBy('no','ASC')->all() as $key => $value): ?>
+                <?php foreach ($dl_menu->orderBy('no','DESC')->all() as $key => $value): ?>
                 <li class="nav-item w-100">
                     <a href="<?php echo $ws['BOF']; ?>download/?cid=<?php echo $value['id']; ?>" class="text-truncate nav-link <?php if ( $FOLDER == 'download' && $cid == $value['id'] ): echo 'active';endif;?>">
                         <i class="nav-icon fal fa-file-download"></i>
