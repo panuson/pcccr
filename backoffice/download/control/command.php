@@ -10,7 +10,7 @@ if ( isset( $_POST['action'] ) )
     if ( $_POST['action'] == 'category' )
     {
 
-        $data = $dl_type->where("where id=0")->all();
+        $data = $dl_type->where("")->all();
         if ( empty( $_POST['id'] ) )
         {
             foreach ( $data as $key => $value )
