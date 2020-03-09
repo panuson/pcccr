@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 09, 2020 at 03:37 AM
+-- Generation Time: Mar 09, 2020 at 04:19 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.2.28
 
@@ -137,8 +137,18 @@ CREATE TABLE `tb_download_file` (
 CREATE TABLE `tb_download_type` (
   `id` int(11) NOT NULL,
   `topic` varchar(200) NOT NULL,
-  `no` int(11) NOT NULL
+  `no` int(11) NOT NULL,
+  `status` int(5) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `tb_download_type`
+--
+
+INSERT INTO `tb_download_type` (`id`, `topic`, `no`, `status`) VALUES
+(11, 'ประกาศโรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย เชียงราย', 3, 1),
+(13, 'รายงานประจำเดือน', 1, 1),
+(12, 'รายงานประจำปี', 2, 1);
 
 -- --------------------------------------------------------
 
@@ -728,7 +738,7 @@ ALTER TABLE `tb_download_file`
 -- AUTO_INCREMENT for table `tb_download_type`
 --
 ALTER TABLE `tb_download_type`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `tb_egp`
