@@ -54,19 +54,19 @@
                             <table id="example" class="table table-bordered table-sm">
                                 <thead>
                                     <th class="text-center">หัวข้อ</th>
-                                    <th width="100" class="text-center">ลำดับ</th>
+                                    <!--<th width="100" class="text-center">ลำดับ</th>!-->
                                     <th width="100" class="text-center">แสดงผล</th>
                                     <th width="150" class="text-center">จัดการ</th>
 
                                 </thead>
                                 <tbody>
-                                    <?php foreach ( $dl_type->where("where id=0")->orderBy( 'no', 'ASC' )->all() as $key => $value ): ?>
+                                    <?php foreach ( $dl_type->where("")->orderBy( 'no', 'DESC' )->all() as $key => $value ): ?>
                                     <tr id="<?php echo $value['id']; ?>">
                                         <td class="align-middle"><a href="./?cid=<?php echo $value['id']; ?>"><?php echo $value['topic']; ?></a></td>
-                                        <td class="text-center align-middle">
+                                        <!--<td class="text-center align-middle">
                                             <a href="javascript:void(0)" data-sort="<?php echo $value['id']; ?>" data-no="<?php echo $value['no']; ?>" data-type="category" data-action="up" class="btn btn-info btn-sm"><i class="fa fa-chevron-up"></i></a>
                                             <a href="javascript:void(0)" data-sort="<?php echo $value['id']; ?>" data-no="<?php echo $value['no']; ?>" data-type="category" data-action="down" class="btn btn-info btn-sm"><i class="fa fa-chevron-down"></i></a>
-                                        </td>
+                                        </<td>!-->
                                         <td class="text-center align-middle">
                                         <div class="custom-control custom-switch">
                                             <input value="<?php echo $value['id']; ?>" data-show-cate type="checkbox" class="custom-control-input" id="customSwitch<?php echo $value['id']; ?>" <?php if ( $value['status'] == 1 ): echo 'checked';endif;?>>
