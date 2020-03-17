@@ -56,7 +56,7 @@
             @unlink("../../../filesAttach/gallery/thumbnail/".$_POST['file']);
             @unlink("../../../filesAttach/gallery/".$_POST['file']);
         }
-        if($_POST['type']=='all'){
+        if($_POST['type']=='list'){
             foreach ($gallery_img->where("WHERE gallery_id='{$_POST['id']}'")->all() as $key => $value) {
                 @unlink("../../../filesAttach/gallery/thumbnail/{$value['filename']}");
                 @unlink("../../../filesAttach/gallery/{$value['filename']}");
