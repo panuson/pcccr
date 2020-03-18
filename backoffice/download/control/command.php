@@ -297,7 +297,7 @@ if ( isset( $_POST['sort'] ) )
     {
         if ( $_POST['type'] == 'category' )
         {
-            $data = $dl_type->where( "where dep_id=0 AND no=$no" )->find();
+            $data = $dl_type->where( "where no=$no" )->find();
         }
         elseif ( $_POST['type'] == 'sub' )
         {

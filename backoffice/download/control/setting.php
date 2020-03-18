@@ -18,7 +18,7 @@ if ( !empty( $_GET['id'] ) )
     $type     = $data['download_id'];
     $topic    = $data['topic'];
     $filename = $data['filename'];
-    $url      = $data['url'];
+    $url      = @$data['url'];
     $selected = $data['selected'];
     $htopic   = 'แก้ไขไฟล์ดาวน์โหลด';
 }

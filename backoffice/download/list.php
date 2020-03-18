@@ -76,8 +76,8 @@
 											<a target="_blank" href="<?php echo $url;?>" class="btn btn-success btn-sm"><i class="fal fa-<?php echo $i?>"></i> <?php echo $f;?></a>
 										</td>
 										<td class="text-center align-middle">
-											<a href="javascript:void(0)" data-sort="<?php echo $value['id']; ?>" data-no="<?php echo $value['no']; ?>" data-type-id="<?php echo $value[download_id]; ?>" data-type="download" data-action="up" class="btn btn-info btn-sm"><i class="fa fa-chevron-up"></i></a>
-											<a href="javascript:void(0)" data-sort="<?php echo $value['id']; ?>" data-no="<?php echo $value['no']; ?>" data-type-id="<?php echo $value[download_id]; ?>" data-type="download" data-action="down" class="btn btn-info btn-sm"><i class="fa fa-chevron-down"></i></a>
+											<a href="javascript:void(0)" data-sort="<?php echo $value['id']; ?>" data-no="<?php echo $value['no']; ?>" data-type-id="<?php echo $value['download_id']; ?>" data-type="download" data-action="up" class="btn btn-info btn-sm"><i class="fa fa-chevron-up"></i></a>
+											<a href="javascript:void(0)" data-sort="<?php echo $value['id']; ?>" data-no="<?php echo $value['no']; ?>" data-type-id="<?php echo $value['download_id']; ?>" data-type="download" data-action="down" class="btn btn-info btn-sm"><i class="fa fa-chevron-down"></i></a>
 										</td>
 										<td class="text-center align-middle">
 										<a href="./form.php?id=<?php echo $value['id']?>" data-toggle="tooltip" data-placement="bottom" title="แก้ไข" class="mx-1 btn btn-warning btn-sm text-white"><i class="fal fa-pen"></i></a>
