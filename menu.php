@@ -9,10 +9,10 @@
             <a class="text-lg-left text-md-center mr-1 mx-auto my-sm-2" href="index.php">
             <img src="assets/img/logo.svg" width="85" height="85" alt="" >
             </a>
-            <div class="text-center text-lg-left text-md-center text-sm-center w-100">
+            <a href="index.php" class="text-center text-lg-left text-md-center text-sm-center w-100 text-secondary" style="text-decoration:none">
             <span>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย เชียงราย</span><br>
             <small>Princess Chulabhorn Science High School Chiang Rai</small>
-        </div>
+        </a>
         
         <div class="w-100">
             <button class="navbar-toggler w-100 mt-sm-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $("#lightgallery").lightGallery(); 
+});
+
 $(document).ready(function(){
     $('.single-item').slick({
     dots: false,
@@ -64,6 +68,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
   
     calendar.render();
-  });
-
-  
+  })

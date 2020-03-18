@@ -1,3 +1,8 @@
+<?php
+    require_once './inc/config.inc.php';
+    require_once './inc/controller.php';
+    
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -93,100 +98,23 @@
     <div class="container">
         <div class="row">
 <!-------------------------------------col1----------------------------------------->
-            <div class="col-sm-12 col-md-8 mb-sm-3">
-            <div class="title-lt-wd border-bottom">
-                <h5 class="underlinetext">ข่าวประชาสัมพันธ์</h5>
-            </div>
-            <div class="card-deck my-4">
-                <div class="card sm-12">
-                    <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <a href="#" class="stretched-link text-secondary text-menu-hover">
-                            <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
-                        </a>
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card sm-12">
-                    <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <a href="#" class="stretched-link text-secondary text-menu-hover">
-                            <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
-                        </a>
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card sm-12">
-                    <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <a href="#" class="stretched-link text-secondary text-menu-hover">
-                            <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
-                        </a>
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            </div>
-           <hr>
-           <div class="text-right more">
-                <a class="" href="http://"><small>อ่านข่าวทั้งหมด</small></a>
-            </div>
-            <div class="title-lt-wd border-bottom">
-                <h5 class="underlinetext">กิจกรรม</h5>
-            </div>
-            <div class="card-deck my-4">
-                <div class="card sm-12">
-                    <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <a href="#" class="stretched-link text-secondary text-menu-hover">
-                            <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
-                        </a>
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card sm-12">
-                    <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <a href="#" class="stretched-link text-secondary text-menu-hover">
-                            <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
-                        </a>
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card sm-12">
-                    <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <a href="#" class="stretched-link text-secondary text-menu-hover">
-                            <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
-                        </a>
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            </div>
-           <hr>
-           <div class="text-right more">
-                <a class="" href="http://"><small>ดูกิจกรรมเพิ่มเติม</small></a>
-            </div>
-            </div>
-<!-------------------------------------end col1----------------------------------------->
-
-<!-------------------------------------col2--------------------------------------------->
-            <div class="col-sm-12 col-md-4 my-0 mx-auto">
+            <div class="col-sm-12 col-md-4 my-0 mx-auto ">
                 <div class="title-lt-wd border-bottom text-center ">
                     <h5 class="nounderln">ผู้อำนวยการโรงเรียน</h5>
                 </div>
                 <div class="text-center my-4 dir">
                     <img class="" src="assets/img/pradit.png" alt="" width="200px;">
-                    <div class="tabcenter py-1 mt-1 text-center">
+                    <div class="tabcenter py-1 mt-1 text-center rounded">
                         <p class="my-auto text-white">นายประดิษฐ์ โพธิกลาง</p>
                     </div>
                 </div>
 
                 <div class="left-menu">
                     <div class="mb-3">
-                        <div class="title-left-menu py-2 mt-1 pl-4">
+                        <div class="title-left-menu py-2 mt-1 pl-4 rounded-top">
                             <h5 class="my-auto text-white">กลุ่มงาน</h5>
                         </div>
-                        <div class="sub-left-menu py-3 px-2">
+                        <div class="sub-left-menu py-3 px-2 rounded-bottom">
                             <div><a href="http://www.pcccr.ac.th/plan" target="_blank">แผนงาน</a></div>
                             <div><a http://61.7.241.230/curriculum/" target="_blank">หลักสูตรโรงเรียนวิทยาศาสตร์</a></div>
                             <div><a href="">งานสารสนเทศ</a></div>
@@ -194,19 +122,19 @@
                         </div>
                     </div>
                     <div class="mb-3">
-                        <div class="title-left-menu py-2 mt-1 pl-4">
+                        <div class="title-left-menu py-2 mt-1 pl-4 rounded-top">
                             <h5 class="my-auto text-white">ห้องเกียรติยศ</h5>
                         </div>
-                        <div class="sub-left-menu py-3 px-2">
+                        <div class="sub-left-menu py-3 px-2 rounded-bottom">
                             <div><a href="">ผลงานครู</a></div>
                             <div><a href="">ผลงานนักเรียน</a></div>
                         </div>
                     </div>
                     <div class="mb-3">
-                        <div class="title-left-menu py-2 mt-1 pl-4">
+                        <div class="title-left-menu py-2 mt-1 pl-4 rounded-top">
                             <h5 class="my-auto text-white">กลุ่มสาระการเรียนรู้</h5>
                         </div>
-                        <div class="sub-left-menu py-3 px-2">
+                        <div class="sub-left-menu py-3 px-2 rounded-bottom">
                             <div><a href="">วิทยาศาสตร์และเทคโนโลยี</a></div>
                             <div><a href="">คณิตศาสตร์</a></div>
                             <div><a href="">ภาษาไทย</a></div>
@@ -219,7 +147,62 @@
                     </div>
                 </div>        
             </div>
+<!-----------------------------------end col1--------------------------------------->
+
+<!-------------------------------------col2----------------------------------------->
+            <div class="col-sm-12 col-md-8 mb-sm-3">
+                <div class="my-4 my-md-3 my-xl-0">
+                    <div class="title-lt-wd border-bottom">
+                        <h5 class="underlinetext">ข่าวประชาสัมพันธ์</h5>
+                    </div>
+                    <div class="card-deck my-4">
+                         <?php GETHTML::GALLERY(2,3)?>
+                    </div>
+                
+                    <div class="text-right more"> 
+                        <a class="" href="http://"><small>อ่านข่าวทั้งหมด</small></a>
+                    </div>
+                </div>
+            <div class="my-4 my-md-3 my-xl-0">
+                <div class="title-lt-wd border-bottom ">
+                    <h5 class="underlinetext">กิจกรรม</h5>
+                </div>
+                <div class="card-deck my-4">
+                    <div class="card sm-12">
+                        <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <a href="#" class="stretched-link text-secondary text-menu-hover">
+                                <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
+                            </a>
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    <div class="card sm-12">
+                        <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <a href="#" class="stretched-link text-secondary text-menu-hover">
+                                <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
+                            </a>
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    <div class="card sm-12">
+                        <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <a href="#" class="stretched-link text-secondary text-menu-hover">
+                                <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
+                            </a>
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-right more"> 
+                    <a class="" href="http://"><small>อ่านข่าวทั้งหมด</small></a>
+                </div>
+                </div>
+            </div>
 <!-------------------------------------end col2----------------------------------------->
+
         </div>
     </div>
 </div>
@@ -418,7 +401,7 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="assets/js/jquery-3.4.1.slim.min.js"></script>
     <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>  
     <script type="text/javascript" src="slick/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="slick/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -431,3 +414,4 @@
     <script type="text/javascript" src="assets/js/script.js"></script>
   </body>
 </html>
+

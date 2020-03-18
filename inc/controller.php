@@ -65,32 +65,25 @@ class GETHTML
                 </a>';
         }
     }
-    public function GALLERY( $type, $limit = null, $height = 32 )
+    public function GALLERY( $type, $limit = null)
     {
         $gallery = new Gallery();
-
         $data = $gallery->where( "WHERE type = '$type'" )->orderBy( 'id', 'DESC' )->limit( $limit )->all();
-
-        echo '<div class="flex py-3 -mx-6">';
         foreach ( $data as $key => $value )
         {
-            echo '<div class="w-1/3 p-4">
-                <a href="./gallery-detail.php?id=' . $value['id'] . '" class="relative block border-4 text-white border-red-600  shadow-lg">
-                    <div class="frame">
-                        <div class="left"></div>
-                        <div class="left-bottom"></div>
-                        <div class="right"></div>
-                        <div class="right-top"></div>
-                    </div>
-                    <img class="w-full object-cover h-'.$height.'" src="./filesAttach/gallery/thumbnail/' . $value['filename'] . '" alt="Sunset in the mountains">
-                    <div class="p-2 bg-red-600">
-                        <p style="font-size: 0.875rem;">' . $value['topic'] . '</p>
-                    </div>
-                </a>   
+            echo '
+            <div class="card sm-12">
+                <img class="card-img-top" src="./filesAttach/gallery/'.$value['filename'].'" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <a href="gallery-detail.php?id='.$value['id'].'" class="stretched-link text-secondary text-menu-hover">
+                        <p class="card-text mb-1">'.$value['topic'].'</p>
+                    </a>
+                    <small class="text-muted">'.$gallery->datethai($value['postdate']).'</small>
+                </div>
             </div>';
         }
-        echo '</div>';
     }
+
     public function DOWNLOAD( $type , $limit = null , $showname = false )
     {
         $dl   = new Download();
@@ -248,4 +241,5 @@ class GETHTML
 
         echo "ผู้เข้าชม {$array['counter']} ครั้ง, ออนไลน์ขณะนี้ {$odata} คน";
     }
+    
 }

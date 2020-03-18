@@ -1,8 +1,9 @@
 <?php
-    $main_menu = new Main();
+    $main_menu  = new Main();
     $news_menu = new News_Type();
     $pers_menu = new Personnel_Type();
     $dl_menu   = new Download_Type();
+    
 
     $PATH   = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
     $PATH   = str_replace( $ws['BOF'], '', $PATH );
@@ -41,7 +42,7 @@
                 <?php endforeach; ?>
                 <?php endif; ?>
                 <!-- ข่าว -->
-                <li class="nav-header">ข่าว</li>
+                <!--<li class="nav-header">ข่าว</li>
                 <?php if($_SESSION['ssid'] == 1) : ?>
                 <li class="nav-item w-100">
                     <a href="<?php echo $ws['BOF']; ?>news/list.php" class="text-truncate nav-link <?php if ( $FOLDER == 'news' && $type == '' ): echo 'active';endif;?>">
@@ -58,15 +59,16 @@
                     </a>
                 </li>
                 <?php endforeach; ?>
-                <?php if($_SESSION['ssid'] == 1) : ?>
+                <?php if($_SESSION['ssid'] == 1) : ?>-->
                 <!-- บุคลากร -->
-                <li class="nav-header">บุคลากร</li>
+                <!--<li class="nav-header">บุคลากร</li>-->
                 <!--<li class="nav-item w-100">
                     <a href="<?php echo $ws['BOF']; ?>personnel/list.php" class="text-truncate nav-link <?php if ( $FOLDER == 'personnel' && $type == '' ): echo 'active';endif;?>">
                         <i class="nav-icon fal fa-users-cog"></i>
                         <span>จัดการบุคลากร</span>
                     </a>
                 </li>-->
+
                 <?php foreach ($pers_menu->all() as $key => $value): ?>
                 <li class="nav-item w-100">
                     <a href="<?php echo $ws['BOF']; ?>personnel/?type=<?php echo $value['id']; ?>" class="text-truncate nav-link <?php if ( $FOLDER == 'personnel' && $type == $value['id'] ): echo 'active';endif;?>">
@@ -76,7 +78,13 @@
                 </li>
                 <?php endforeach; ?>
                 <!-- อัลบั้มภาพ -->
-                <li class="nav-header">อัลบั้มภาพ</li>
+                <li class="nav-header">ข่าวสาร</li>
+                <li class="nav-item w-100">
+                    <a href="<?php echo $ws['BOF']?>gallery/?type=2" class="nav-link <?php if($FOLDER == 'gallery' && $type == 2 ): echo 'active'; endif;?>">
+                        <i class="nav-icon fal fa-camera-retro"></i>
+                        <span>ข่าวประชาสัมพันธ์</span>
+                    </a>
+                </li>
                 <li class="nav-item w-100">
                     <a href="<?php echo $ws['BOF']?>gallery/?type=1" class="nav-link <?php if($FOLDER == 'gallery' && $type == 1 ): echo 'active'; endif;?>">
                         <i class="nav-icon fal fa-camera-retro"></i>
