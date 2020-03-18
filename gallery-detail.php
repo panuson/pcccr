@@ -69,11 +69,11 @@ else
             <?php 
             foreach ( $gallery_img->where( "WHERE gallery_id='$id'" )->all() as $key => $value ){
                 echo '
-                <div class="col-12 col-md-4 col-sm-6" >
-                    <a href="./filesAttach/gallery/'. $value['filename'].'">
+                <a href="./filesAttach/gallery/'. $value['filename'].'">
+                    <div class="col-12 col-md-4 col-sm-6" >
                         <img src="./filesAttach/gallery/thumbnail/'. $value['filename'].'" class="mb-4 mx-auto img-thumbnail" ></img>
-                    </a>
-                </div>
+                    </div>
+                </a>
                 ';
             }
             ?>
