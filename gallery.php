@@ -4,16 +4,10 @@
     require_once './inc/function.php';
     $gallery = new Gallery();
     $gallery_img = new Gallery_Images();
-if ( !empty( $_GET['id'] ) )
+if ( !empty( $_GET['type'] ) )
 {
-    $id       = $_GET['id'];
-    $data     = $gallery->getById($id);
-    $type     = $data['type'];
-    $topic    = $data['topic'];
-    $detail   = $data['detail'];
-    $filename = $data['filename'];
-    $postdate = $data['postdate'];
-    $pageview = $data['pageview'];
+    $type     = $_GET['type'];
+    $data     = $gallery->getById($type);
 }
 else
 {
@@ -48,13 +42,14 @@ else
 <section class="title-name py-5">
     <div class="container-xl">
     <h3><?php 
-    if ($type==1){
-        echo 'กิจกรรม';}
-    else{
-        echo 'ข่าวประชาสัมพันธ์';
-        }
-        ?>
-        </h3>
+            if ($_GET['type']==1){
+                echo 'กิจกรรม';
+            }
+            else{
+                echo 'ข่าวประชาสัมพันธ์';
+            }
+            
+            ?></h3>
     </div>
 </section>
 <section>
@@ -62,38 +57,25 @@ else
         <nav aria-label="breadcrumb">
         <ol class="breadcrumb bg-white mb-0">
             <li class="breadcrumb-item"><a href="index.php" style="color:#4267b2;">หน้าหลัก</a></li>
-            <li class="breadcrumb-item"><a href="gallery.php?type=<?php echo $type;?>" style="color:#4267b2;"><?php 
-            if ($type==1){
+            <li class="breadcrumb-item active" aria-current="page">
+            <?php 
+            if ($_GET['type']==1){
                 echo 'กิจกรรม';
             }
             else{
                 echo 'ข่าวประชาสัมพันธ์';
             }
             
-            ?></a></li>
-            <li class="breadcrumb-item active" aria-current="page"><?php echo $topic?></li>
+            ?></li>
         </ol>
         </nav>
     </div>
 </section>
 <section>
-    <div class="container-xl my-5">
-    <h5 class="mb-5 text-center"><?php echo $topic?></h5>
-        <div class="text-center">
-            <img src="./filesAttach/gallery/<?php echo $filename;?>" class="mb-4 mx-auto"></img>
+    <div class="container-xl mb-5">
+        <div class="card-deck">
+            <?php GETHTML::GALLERY($type,3)?>
         </div>
-            <?php echo $detail;?>
-            <div class="row" id="lightgallery">
-            <?php 
-            foreach ( $gallery_img->where( "WHERE gallery_id='$id'" )->all() as $key => $value ){
-                echo '
-                <a href="./filesAttach/gallery/'. $value['filename'].'" class="col-12 col-sm-6 col-md-4 ">
-                        <img src="./filesAttach/gallery/'. $value['filename'].'" class="mb-4 mx-auto img-thumbnail" ></img>
-                </a>
-                ';
-            }
-            ?>
-            </div>
     </div>
 </section>
   

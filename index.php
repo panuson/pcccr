@@ -90,8 +90,8 @@
 <!---------------------------------------------------------------content-------------------------------------------------------------------->
 
 <div class="container-xl my-3">
-    <div class="banner">
-    <h2 class="display-4 text-center">Banner</h2>
+    <div class="text-center">
+    <img src="filesAttach/other/1.jpg" class="img-fluid" alt="Responsive image">
     </div>
 </div>
     <div class="section mt-5 mb-3 ">
@@ -160,7 +160,7 @@
                     </div>
                 
                     <div class="text-right more"> 
-                        <a class="" href="http://"><small>อ่านข่าวทั้งหมด</small></a>
+                        <a class="" href="gallery.php?type=2"><small>อ่านข่าวทั้งหมด</small></a>
                     </div>
                 </div>
             <div class="my-4 my-md-3 my-xl-0">
@@ -168,47 +168,16 @@
                     <h5 class="underlinetext">กิจกรรม</h5>
                 </div>
                 <div class="card-deck my-4">
-                    <div class="card sm-12">
-                        <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <a href="#" class="stretched-link text-secondary text-menu-hover">
-                                <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
-                            </a>
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div class="card sm-12">
-                        <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <a href="#" class="stretched-link text-secondary text-menu-hover">
-                                <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
-                            </a>
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div class="card sm-12">
-                        <img class="card-img-top" src="assets/img/test.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <a href="#" class="stretched-link text-secondary text-menu-hover">
-                                <p class="card-text mb-1">ขอแสดงความยินดีกับนักเรียนได้เข้ารอบไปแข่งขันต่อในระดับภาค ได้แก่ เด็กหญิงปภา</p>
-                            </a>
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
+                    <?php GETHTML::GALLERY(1,3)?>
                 </div>
                 <div class="text-right more"> 
-                    <a class="" href="http://"><small>อ่านข่าวทั้งหมด</small></a>
+                    <a class="" href="gallery.php?type=1"><small>อ่านข่าวทั้งหมด</small></a>
                 </div>
                 </div>
             </div>
 <!-------------------------------------end col2----------------------------------------->
 
         </div>
-    </div>
-</div>
-<div class="container-xl mb-3">
-    <div class="banner">
-    <h2 class="display-4 text-center">Banner</h2>
     </div>
 </div>
 <section class="announce">
